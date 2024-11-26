@@ -26,6 +26,11 @@ ol {
   padding-left: 0;
 }
 
+a {
+  text-decoration-line: none;
+  color: currentColor;
+}
+
 img {
   display: block;
 }
@@ -72,16 +77,18 @@ input {
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .logo {
+  margin-right: 442px;
 }
 
 .logo-icon {
 }
 
 .nav {
+  padding: 26px;
 }
 
 .nav-list {
@@ -90,6 +97,10 @@ input {
 }
 
 .nav-item {
+  padding: 8px;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0;
 }
 
 /* #endregion */
