@@ -81,7 +81,7 @@
           <div class="about-left">
             <div class="about-left-inside">
               <h2 class="about-title">About us</h2>
-              <h3 class="page-title">
+              <h3 class="main-title">
                 Our сraftsmanship: сreating unique handmade furniture
               </h3>
               <p class="page-text">
@@ -122,23 +122,27 @@
       </section>
       <section class="prices" id="prices">
         <div class="container">
-          <ul class="prices-left-list">
-            <li class="prices-left-item">Chairs</li>
-            <li class="prices-left-item">Tables</li>
-            <li class="prices-left-item">Dressers</li>
-            <li class="prices-left-item">Sofas</li>
+          <ul class="prices-list">
+            <li class="prices-item">Chairs</li>
+            <li class="prices-item-price">from 200$</li>
           </ul>
-          <ul class="prices-right-list">
-            <li class="page-price">from 200$</li>
-            <li class="page-price">from 250$</li>
-            <li class="page-price">from 300$</li>
-            <li class="page-price">from 500$</li>
+          <ul class="prices-list">
+            <li class="prices-item">Tables</li>
+            <li class="prices-item-price">from 250$</li>
+          </ul>
+          <ul class="prices-list">
+            <li class="prices-item">Dressers</li>
+            <li class="prices-item-price">from 300$</li>
+          </ul>
+          <ul class="prices-list">
+            <li class="prices-item">Sofas</li>
+            <li class="prices-item-price">from 500$</li>
           </ul>
         </div>
       </section>
       <section class="our-products" id="products">
         <div class="container">
-          <h2 class="page-title">OUR PRODUCTS</h2>
+          <h2 class="main-title">OUR PRODUCTS</h2>
           <ul class="products-list">
             <li class="products-item">
               <img
@@ -185,9 +189,9 @@
       </section>
       <section class="bestsellers" id="bestsellers">
         <div class="container">
-          <h2 class="page-title">Bestsellers</h2>
-          <ul class="bestsellers-list">
-            <li class="bestsellers-item">
+          <h2 class="main-title">Bestsellers</h2>
+          <div class="bestsellers-wrapper">
+            <div class="bestsellers-left-img">
               <img
                 class="bestsellers-img"
                 src="./images/bestsellers-1.jpeg"
@@ -197,68 +201,74 @@
               />
               <h3 class="page-text">The modern platform bed</h3>
               <p class="bestsellers-price">750$</p>
-            </li>
-            <li class="bestsellers-item">
-              <img
-                class="bestsellers-img"
-                src="./images/bestsellers-2.jpeg"
-                alt="bestsellers-image"
-                width="258"
-                height="193"
-              />
-              <h3 class="page-text">The Cozy Lounge Chair</h3>
-              <p class="bestsellers-price">230$</p>
-            </li>
-            <li class="bestsellers-item">
-              <img
-                class="bestsellers-img"
-                src="./images/bestsellers-3.jpeg"
-                alt="bestsellers-image"
-                width="258"
-                height="193"
-              />
-              <h3 class="page-text">The sleek stand</h3>
-              <p class="bestsellers-price">300$</p>
-            </li>
-            <li class="bestsellers-item">
-              <img
-                class="bestsellers-img"
-                src="./images/bestsellers-4.jpeg"
-                alt="bestsellers-image"
-                width="258"
-                height="193"
-              />
-              <h3 class="page-text">The industrial accent chair</h3>
-              <p class="bestsellers-price">250$</p>
-            </li>
-            <li class="bestsellers-item">
-              <img
-                class="bestsellers-img"
-                src="./images/bestsellers-5.jpeg"
-                alt="bestsellers-image"
-                width="258"
-                height="193"
-              />
-              <h3 class="page-text">The minimalist sofa</h3>
-              <p class="bestsellers-price">650$</p>
-            </li>
-          </ul>
+            </div>
+            <ul class="bestsellers-list">
+              <li class="bestsellers-item">
+                <img
+                  class="bestsellers-img"
+                  src="./images/bestsellers-2.jpeg"
+                  alt="bestsellers-image"
+                  width="258"
+                  height="193"
+                />
+                <h3 class="page-text">The Cozy Lounge Chair</h3>
+                <p class="bestsellers-price">230$</p>
+              </li>
+              <li class="bestsellers-item">
+                <img
+                  class="bestsellers-img"
+                  src="./images/bestsellers-3.jpeg"
+                  alt="bestsellers-image"
+                  width="258"
+                  height="193"
+                />
+                <h3 class="page-text">The sleek stand</h3>
+                <p class="bestsellers-price">300$</p>
+              </li>
+              <li class="bestsellers-item">
+                <img
+                  class="bestsellers-img"
+                  src="./images/bestsellers-4.jpeg"
+                  alt="bestsellers-image"
+                  width="258"
+                  height="193"
+                />
+                <h3 class="page-text">The industrial accent chair</h3>
+                <p class="bestsellers-price">250$</p>
+              </li>
+              <li class="bestsellers-item">
+                <img
+                  class="bestsellers-img"
+                  src="./images/bestsellers-5.jpeg"
+                  alt="bestsellers-image"
+                  width="258"
+                  height="193"
+                />
+                <h3 class="page-text">The minimalist sofa</h3>
+                <p class="bestsellers-price">650$</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="reviews" id="reviews">
         <div class="container">
-          <h2 class="page-title">Clients reviews</h2>
+          <h2 class="main-title">Clients reviews</h2>
           <ul class="reviews-list">
             <li class="reviews-item">
-              <img
-                class="reviews-img"
-                src="./images/review-1.png"
-                alt="alexandra-dream"
-                width="56"
-                height="56"
-              />
-              <h3 class="page-name">Alexandra Dream</h3>
-              <p class="page-date">1 week ago</p>
+              <div class="reviews-wrapper">
+                <img
+                  class="reviews-img"
+                  src="./images/review-1.png"
+                  alt="alexandra-dream"
+                  width="56"
+                  height="56"
+                />
+                <div class="reviews-subwrapper">
+                  <h3 class="page-name">Alexandra Dream</h3>
+                  <p class="page-date">1 week ago</p>
+                </div>
+              </div>
               <p class="page-text">
                 I was blown away by the quality and craftsmanship of the
                 furniture I received from this company. Each piece was unique
@@ -267,15 +277,19 @@
               </p>
             </li>
             <li class="reviews-item">
-              <img
-                class="reviews-img"
-                src="./images/review-2.png"
-                alt="james-williams"
-                width="56"
-                height="56"
-              />
-              <h3 class="page-name">James Williams</h3>
-              <p class="page-date">A week ago</p>
+              <div class="reviews-wrapper">
+                <img
+                  class="reviews-img"
+                  src="./images/review-2.png"
+                  alt="james-williams"
+                  width="56"
+                  height="56"
+                />
+                <div class="reviews-subwrapper">
+                  <h3 class="page-name">James Williams</h3>
+                  <p class="page-date">A week ago</p>
+                </div>
+              </div>
               <p class="page-text">
                 The "Minimal" furniture set is a fantastic addition to my home.
                 It boasts a minimalist design, enhancing the feel and look of my
@@ -284,15 +298,19 @@
               </p>
             </li>
             <li class="reviews-item">
-              <img
-                class="reviews-img"
-                src="./images/review-3.png"
-                alt="emily-watson"
-                width="56"
-                height="56"
-              />
-              <h3 class="page-name">Emily Watson</h3>
-              <p class="page-date">3 week ago</p>
+              <div class="reviews-wrapper">
+                <img
+                  class="reviews-img"
+                  src="./images/review-3.png"
+                  alt="emily-watson"
+                  width="56"
+                  height="56"
+                />
+                <div class="reviews-subwrapper">
+                  <h3 class="page-name">Emily Watson</h3>
+                  <p class="page-date">3 week ago</p>
+                </div>
+              </div>
               <p class="page-text">
                 The "Minimal" furniture set has far exceeded my expectations.
                 The sleek design combined with the high-quality materials have
@@ -305,22 +323,41 @@
       </section>
       <section class="newsletter">
         <div class="container">
-          <h2 class="page-title">Newsletter</h2>
-          <p class="page-text">
-            Every week we will send you new designs and information about sales.
-          </p>
-          <form class="newsletter-form">
-            <input class="newsletter-input" type="text" placeholder="Name" />
-            <input class="newsletter-input" type="email" placeholder="E-mail" />
-            <input class="visually-hidden" type="checkbox" />
-            <svg class="newsletter-checkbox" width="13" height="13">
-              <use href="./images/icons.svg#checkbox"></use>
-            </svg>
-            <span class="newsletter-agreement"
-              >Agree to subscribe to the newsletter</span
-            >
-            <button class="page-button" type="submit">Send</button>
-          </form>
+          <div class="newsletter-wrapper">
+            <h2 class="main-title">Newsletter</h2>
+            <div class="newsletter-subform">
+              <p class="page-text">
+                Every week we will send you new designs and information about
+                sales.
+              </p>
+              <form class="newsletter-form">
+                <input
+                  class="newsletter-input"
+                  type="text"
+                  name="user-name"
+                  placeholder="Name"
+                />
+                <input
+                  class="newsletter-input"
+                  type="email"
+                  name="user-email"
+                  placeholder="E-mail"
+                />
+                <input
+                  class="visually-hidden"
+                  type="checkbox"
+                  name="user-agreement"
+                />
+                <svg class="newsletter-checkbox" width="13" height="13">
+                  <use href="./images/icons.svg#checkbox"></use>
+                </svg>
+                <span class="newsletter-agreement"
+                  >Agree to subscribe to the newsletter</span
+                >
+                <button class="page-button" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
           <img
             class="newsletter-img"
             src="./images/newsletter.jpeg"
