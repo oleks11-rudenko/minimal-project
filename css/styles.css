@@ -466,6 +466,7 @@ input {
   flex-direction: column;
   gap: 31px;
   width: 536px;
+  min-height: 100%;
 }
 
 .newsletter .main-title {
@@ -499,18 +500,47 @@ input {
   line-height: 1.5;
 }
 
-.newsletter-checkbox {
-  display: inline;
-  justify-content: center;
-  align-items: center;
+.checkbox-label {
+  color: #7a7a7a;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-.newsletter-agreement {
-  margin-left: 33px;
+.custom-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 25px;
+  height: 25px;
+
+  stroke: transparent;
+  border: 1px solid #b6b6b6;
+
+  cursor: pointer;
+
+  margin-right: 8px;
+}
+
+input[type="checkbox"]:checked + .checkbox-label .custom-checkbox {
+  background-color: #0a224a;
+  border: none;
+  stroke: #ffffff;
+}
+
+.newsletter-checkbox {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked
+  + .checkbox-label
+  .custom-checkbox
+  .newsletter-checkbox {
+  opacity: 1;
 }
 
 .newsletter .page-button {
-  margin: 0;
+  margin-top: 14px;
 }
 
 .newsletter-img {

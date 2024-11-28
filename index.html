@@ -345,15 +345,19 @@
                 />
                 <input
                   class="visually-hidden"
+                  value="true"
                   type="checkbox"
                   name="user-agreement"
+                  id="user-agreement"
                 />
-                <svg class="newsletter-checkbox" width="13" height="13">
-                  <use href="./images/icons.svg#checkbox"></use>
-                </svg>
-                <span class="newsletter-agreement"
-                  >Agree to subscribe to the newsletter</span
-                >
+                <label class="checkbox-label" for="user-agreement">
+                  <span class="custom-checkbox">
+                    <svg class="newsletter-checkbox" width="13" height="13">
+                      <use href="./images/icons.svg#checkbox"></use>
+                    </svg>
+                  </span>
+                  Agree to subscribe to the newsletter
+                </label>
                 <button class="page-button" type="submit">Send</button>
               </form>
             </div>
